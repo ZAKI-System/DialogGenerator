@@ -125,8 +125,8 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(582, 353);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox2);
@@ -139,6 +139,7 @@
             this.Controls.Add(this.label1);
             this.MinimumSize = new System.Drawing.Size(600, 400);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DialogGenerator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

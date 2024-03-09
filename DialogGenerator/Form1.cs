@@ -19,9 +19,24 @@ namespace DialogGenerator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            comboBox1.Items.AddRange(new object[] { MessageBoxIcon.None, MessageBoxIcon.Error, MessageBoxIcon.Question, MessageBoxIcon.Warning, MessageBoxIcon.Information });
+            comboBox1.Items.AddRange(new object[]
+            {
+                MessageBoxIcon.None,
+                MessageBoxIcon.Error,
+                MessageBoxIcon.Question,
+                MessageBoxIcon.Warning,
+                MessageBoxIcon.Information
+            });
             comboBox1.SelectedIndex = 0;
-            comboBox2.Items.AddRange(new object[] { MessageBoxButtons.OK, MessageBoxButtons.OKCancel, MessageBoxButtons.AbortRetryIgnore, MessageBoxButtons.YesNoCancel, MessageBoxButtons.YesNo, MessageBoxButtons.RetryCancel });
+            comboBox2.Items.AddRange(new object[]
+            {
+                MessageBoxButtons.OK,
+                MessageBoxButtons.OKCancel,
+                MessageBoxButtons.AbortRetryIgnore,
+                MessageBoxButtons.YesNoCancel,
+                MessageBoxButtons.YesNo,
+                MessageBoxButtons.RetryCancel
+            });
             comboBox2.SelectedIndex = 0;
         }
 
